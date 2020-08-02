@@ -1,0 +1,350 @@
+*{margin:0; padding:0;}
+
+body{
+	font-family:sans-sarif, Arial ;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+a{
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+}
+li{
+	list-style-type:none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+.fix{
+	overflow:hidden;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.container_full{
+	width:100%;
+}
+.container{
+	width:980px;
+	display:block;
+	margin:0 auto;
+}
+/*------------------CSS----------------*/
+
+/*---header Start---*/
+.header_bg{
+	background: url("img/header_logo_bg.jpg") no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 193px;
+}
+.header_bg:before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 195px;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+#header h2{
+	text-align: center;
+	font-size: 80px;
+	color: #fff;
+	font-family: AlexBrush;
+	font-weight: bold;
+	position: relative;
+	z-index: 1;
+	margin-top: 46px;
+}
+
+
+
+/*---header End---*/
+/*---Menu Start---*/
+.menu_bg{
+	background-color: #000;
+	color: #fff;
+	height: 50px;
+}
+#menu ul li{
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+#menu ul li a{
+	padding: 10px;
+	color: #fff;
+}
+#menu ul li a:hover{
+	color: #ffa9a9;
+}
+
+/*---Menu End---*/
+/*---Highlight start---*/
+
+.highlight_section{
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	text-align: center;
+}
+.highlight_section:last-child{
+	margin-right: 0% !important;
+}
+.highlight_section h3{
+	margin-top: 0 !important;
+}
+.highlight_section_div_1{
+	width: 313px;
+	height: 274px;
+	background: url("img/Travel Blog These Beautiful Places in The World are Sure to Leave You in Awe.jpg") no-repeat;
+	background-size: 325px;
+	background-position: center;
+}
+.highlight_section_div_2{
+	width: 313px;
+	height: 273px;
+	background: url("img/maxresdefault.jpg") no-repeat;
+	background-size: 320px;
+	background-position: center;
+}
+.highlight_section_div_3{
+	width: 313px;
+	height: 271px;
+	background: url("img/Zakynthos-Greece_GettyImages-626977447.jpg") no-repeat;
+	background-size: 320px;
+	background-position: center;
+}
+.highlight_section_div_for_border{
+	width: 285px;
+	height: 190px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	margin-top: 41px;
+	display: inline-block;
+}
+/*---Highlight End---*/
+
+/*---section_1 Start---*/
+.section_1_bg{
+	border-top: 1px solid #aaa;
+	padding-top: 0 !important;
+	margin-top: 50px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 30px;
+}
+.section_1_post{
+	width: 67%;
+	padding: 30px 15px 0 0;
+	border-right: 1px solid #aaa;
+	padding-bottom: 150px;
+	float: left;
+}
+.section_1_post img{
+	width: 100%;
+}
+.section_1_post h3{
+	font-size: 25px;
+	color: #00771e;
+}
+.section_1_post p{
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+.section_1_aside{
+	width: 26%;
+	float: right;
+	margin-top: 30px;
+}
+.section_1_aside div{
+	width: 100%;
+}
+.section_1_aside div img{
+	width: 100%;
+}
+.section_1_aside div h4{
+	margin-bottom: 30px;
+}
+/*---section_1 End---*/
+
+/*---big_post Start---*/
+
+.big_post img{
+	width: 100%;
+}
+.big_post h2{
+	font-size: 35px;
+	color: #0093ff;
+	margin: 30px 0 20px 0;
+}
+.big_post p{
+	font-size: 20px;
+	color: #4d4d4d;
+	margin: 30px 0 20px 0;
+}
+
+/*---big_post End---*/
+/*---most_popular Start---*/
+.most_popular_bg{
+	margin-bottom: 20px;
+}
+
+#most_popular h2{
+	text-align: center;
+	margin: 100px 0 9px 0;
+	font-size: 35px;
+	color: #ff3c00;
+}
+.most_popular_h2_bottom_border{
+	width: 150px;
+	height: 2px;
+	background: #797878;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#most_popular div{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+#most_popular div:last-child{
+	margin-right: 0%; 
+}
+#most_popular div img{
+	width: 100%;
+}
+.most_popular_section_1 img{
+	height: 196px;
+}
+/*---most_popular End---*/
+
+/*---gellary start---*/
+#gellary h2{
+	text-align: center;
+	margin: 100px 0 9px 0;
+	font-size: 35px;
+	color: #ff3c00;
+}
+#gellary span{
+	width: 60px;
+}
+.gellary_img_section{
+	width: 30%;
+	float: left;
+	padding: 10px;
+	background: #f4f4f4;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 5px -1px #aaa;
+}
+.gellary_img_section img{
+	width: 100%;
+	align-content: center;
+}
+
+
+
+.gellary_img_section_3 img{
+	height: 196px;
+}
+.gellary_img_section_7 img{
+	height: 196px;
+}
+.gellary_img_section_9 img{
+	height: 196px;
+}
+
+.gellary_img_section_focuse{
+	margin-right: 0 !important;;
+}
+/*---gellary End---*/
+
+/*---footer Start---*/
+.footer_top_bg{
+	background: #222;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+.footer_bg{
+	background: #222;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #aaa;
+}
+.footer_section {
+	width: 33%;
+	float: left;
+	color: #c1c1c1;
+}
+.footer_section_1 img{
+	width: 95%;
+	margin: 20px 0;
+}
+.footer_section_1 p{
+	text-align: center;
+	margin-right: 22px;
+	color: #fff;
+}
+.footer_section_2 img{
+	width: 39%;
+	float: left;
+	margin-right: 10px;
+}
+.footer_section_3 img{
+	width: 100%;
+}
+.footer_section_2_1{
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+.footer_section_1 img{
+	width: 95%;
+	margin: 20px 0;
+}
+.footer_section_3 img{
+	width: 39%;
+	float: left;
+	margin-right: 10px;
+}
+.footer_section_3_1{
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+.footer_top_link{
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+.footer_top_link a{
+	margin-right: 30px;
+	color: #666;
+}
+.footer_top_link a:first-child{
+	margin-left: 130px;
+}
+.footer{
+	text-align: center;
+	color: #fff;
+}
+.footer a{
+	color: #bbb;
+}
+/*---footer End---*/
